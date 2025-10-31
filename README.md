@@ -28,8 +28,4 @@ The following update sets are provided:
 
 ---
 
-### Incident Task & Communication Task Integration
 
-- **Incident Task:**  
-  - Notifications can be triggered when ServiceNow **Incident Tasks** (e.g., investigation, resolution, or follow-up work items) are created or updated **and an assignment group is assigned**.  
-  - The trigger profile uses the ServiceNow **Record Alerts Incident Task `[incident_task]`** option in Flow Designer (see screenshot).  
