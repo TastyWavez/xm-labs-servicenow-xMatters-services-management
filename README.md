@@ -16,7 +16,7 @@
 
 ## Files
 
-The following update sets are provided:  
+A ServiceNow Update Set and xMatters Workflow is provided:
 
 -
 -
