@@ -17,7 +17,7 @@
 
 A ServiceNow Update Set and xMatters Workflow is provided:
 
-- ServiceNowBusinessServicesxMattersServicesStepsv2FlowDesigner.zip \n
+- ServiceNowBusinessServicesxMattersServicesStepsv2FlowDesigner.zip
 
 - xMatters_flowDesigner_V2_Services.xml
 ---
