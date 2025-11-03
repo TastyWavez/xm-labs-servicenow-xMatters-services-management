@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-11-03 19:33:23">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Everbridge Flow Designer">8018d948dbed56102b317f93e2961979</application>
+<application_name>Everbridge Flow Designer</application_name>
+<application_scope>x_xma_eb_fd</application_scope>
+<application_version>1.0.7</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Basics for creating, updating and deleting xMatters Services in Flow Designer.</description>
+<inserted/>
+<name>xMatters_Services_Management</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>152798ffc370321072461d0ed40131e4</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-03 19:33:22</sys_created_on>
+<sys_id>898554bcc30d321072461d0ed4013134</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-03 19:33:22</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Everbridge Flow Designer">8018d948dbed56102b317f93e2961979</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_3c5bd937c348721072461d0ed401316b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;cmdb_ci_service&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="cmdb_ci_service"&gt;sys_created_onONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^EQ&lt;item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;xMatters Service Create&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[var myConfig = {
+  "triggerProfile": "xMatters Service Create",
+  "signalMode": "create",
+  "recipients": "",
+  "alertPriority": "Low"
+};
+var FlowDesignerClient = new x_xma_eb_fd.EBClient(config = myConfig);
+FlowDesignerClient.triggerWorkflow(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-24 15:23:32&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3c5bd937c348721072461d0ed401316b&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;xMatters Service Create&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Everbridge Flow Designer" source="x_xma_eb_fd"&gt;8018d948dbed56102b317f93e2961979&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Everbridge Flow Designer"&gt;8018d948dbed56102b317f93e2961979&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_3c5bd937c348721072461d0ed401316b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-31 17:23:44&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3c5bd937c348721072461d0ed401316b"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1991167596</payload_hash>
+<remote_update_set display_value="xMatters_Services_Management">898554bcc30d321072461d0ed4013134</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-03 19:33:22</sys_created_on>
+<sys_id>018554bcc30d321072461d0ed4013135</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a3b4bf1ac0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-03 19:33:22</sys_updated_on>
+<table>cmdb_ci_service</table>
+<target_name>xMatters Service Create</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>bc1bd47b2bb032107639c46209c2db63</update_guid>
+<update_guid_history>bc1bd47b2bb032107639c46209c2db63:-1991167596,9f9898f3c7b0321029a3190d0acbd831:-1215500876,9e2eddbba6487210ab200043203b02ba:-1927649049,d73d157b7c4872100625b8c8bdf415f7:-2132750483,1bbc59f3ab487210ed80628c63230eea:-935851807</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Everbridge Flow Designer">8018d948dbed56102b317f93e2961979</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_d8bcde7bc380b21072461d0ed40131d7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;true&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;cmdb_ci_service&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;xMatters Service Delete&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[var myConfig = {
+  "triggerProfile": "xMatters Service Delete",
+  "signalMode": "delete",
+  "recipients": "",
+  "alertPriority": "Low"
+};
+var FlowDesignerClient = new x_xma_eb_fd.EBClient(config = myConfig);
+FlowDesignerClient.triggerWorkflow(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-24 20:04:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d8bcde7bc380b21072461d0ed40131d7&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;xMatters Service Delete&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Everbridge Flow Designer" source="x_xma_eb_fd"&gt;8018d948dbed56102b317f93e2961979&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Everbridge Flow Designer"&gt;8018d948dbed56102b317f93e2961979&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_d8bcde7bc380b21072461d0ed40131d7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-31 17:23:33&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d8bcde7bc380b21072461d0ed40131d7"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1665668459</payload_hash>
+<remote_update_set display_value="xMatters_Services_Management">898554bcc30d321072461d0ed4013134</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-03 19:33:22</sys_created_on>
+<sys_id>098554bcc30d321072461d0ed4013135</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a3b4bc9b00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-03 19:33:22</sys_updated_on>
+<table>cmdb_ci_service</table>
+<target_name>xMatters Service Delete</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>120b947b49b03210468fd7dce6ea9a52</update_guid>
+<update_guid_history>120b947b49b03210468fd7dce6ea9a52:1665668459,e3a8d8f3f2b0321012e8f3869e5346ae:-58466997,3b4d92bbff80b2105aac48d0565ceef4:-1194742386,ed1d1abfc980b210bd58c531baa01309:450581066</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Everbridge Flow Designer">8018d948dbed56102b317f93e2961979</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_f239067fc38c721072461d0ed4013150</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;cmdb_ci_service&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="cmdb_ci_service"&gt;nameVALCHANGES^ORsupport_groupVALCHANGES^ORbusines_criticalityVALCHANGES^ORnameVALCHANGES^ORservice_classificationVALCHANGES^EQ&lt;item endquery="false" field="name" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="false" field="support_group" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="false" field="busines_criticality" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="false" field="name" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item display_value="-- None --" endquery="false" field="service_classification" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;xMatters Service Update&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[var myConfig = {
+  "triggerProfile": "xMatters Service Update",
+  "signalMode": "update",
+  "recipients": "",
+  "alertPriority": "Low"
+};
+var FlowDesignerClient = new x_xma_eb_fd.EBClient(config = myConfig);
+FlowDesignerClient.triggerWorkflow(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-24 18:49:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f239067fc38c721072461d0ed4013150&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;xMatters Service Update&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Everbridge Flow Designer" source="x_xma_eb_fd"&gt;8018d948dbed56102b317f93e2961979&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Everbridge Flow Designer"&gt;8018d948dbed56102b317f93e2961979&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_f239067fc38c721072461d0ed4013150&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-31 17:13:53&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f239067fc38c721072461d0ed4013150"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1128806547</payload_hash>
+<remote_update_set display_value="xMatters_Services_Management">898554bcc30d321072461d0ed4013134</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-03 19:33:22</sys_created_on>
+<sys_id>c98554bcc30d321072461d0ed4013135</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a3b42ef840000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-03 19:33:22</sys_updated_on>
+<table>cmdb_ci_service</table>
+<target_name>xMatters Service Update</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>e4d81037d1b0321005c9b81c2e76f2c3</update_guid>
+<update_guid_history>e4d81037d1b0321005c9b81c2e76f2c3:-1128806547,73cb82b7af00b210668b3dfbb6c6643a:-192118616</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
