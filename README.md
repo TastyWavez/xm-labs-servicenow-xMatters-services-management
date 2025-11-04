@@ -29,7 +29,7 @@ A ServiceNow Update Set and xMatters Workflow is provided:
 - **Creating Services:**
 - When a new service is added in ServiceNow a POST to xMatters is triggered and the service is created.
 -  **Updating Services:**
--  When a service is updated in ServiceNow and a relevant change is detected e.g. name, business criticality, support group etc.. the corresponding service in xMatters to reflect the changed attributes. 
+-  When a service is updated in ServiceNow and a relevant change is detected e.g. name, business criticality, support group etc.. the corresponding service in xMatters is updated with the changed attributes. 
 -  **Deleting Services:**
 -  When a service is deleted in ServiceNow the corresponding xMatters service is deleted. 
 
