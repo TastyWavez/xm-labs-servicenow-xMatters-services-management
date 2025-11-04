@@ -94,7 +94,7 @@ To create a trigger profile, navigate to:
    - **Default Signal Mode (Optional):** create, update or delete depending on the trigger profile being created. 
    - **ServiceNow API User:** Select the ServiceNow user account that Flow Designer will use to send updates back to ServiceNow.
 
-3. Click **Submit** to create the trigger profile.
+3. Click **Submit** after creating each of the trigger profiles
 
 
 
