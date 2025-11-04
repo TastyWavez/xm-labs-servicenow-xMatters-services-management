@@ -96,6 +96,12 @@ To create a trigger profile, navigate to:
 
 3. Click **Submit** after creating each of the trigger profiles
 
+---
+
+## Test
+- Create a new Business Service in ServiceNow. Check the Service is created in xMatters.
+- Update the Business Service in ServiceNow e.g. change the Business Service name. Check the changes are reflected on the xMatters service.
+- Delete the service. Check that it's removed from xMatters. 
 
 
 
