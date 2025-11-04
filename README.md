@@ -73,28 +73,25 @@ Configure trigger profiles for:
 - **xMatters Service Update**
 - **xMatters Service Delete**
 
-## Trigger Profile: Incident Tasks
+## Trigger Profile: Business Service
 
 To create a trigger profile, navigate to:
 
 **Everbridge Flow Designer → Global Settings → Trigger Profiles**
 
 1. Click **New** in the upper-right corner of the page.  
-2. Complete the following fields:
+2. Complete the following fields for each of the trigger profiles:
 
-   - **Name:** `Incident Tasks`
+   - **Name:** `xMatters Service Create` 
    - **Credentials:** Select the configured xMatters Credentials for this integration.
    - **Workflow:** Choose the workflow from the populated list  
-     *(e.g., ServiceNow (Flow Designer) v2 – Major Incident Workbench)*.
-   - **Trigger:** Select the trigger for Incident Tasks  
-     *(ServiceNow Record Alerts Incident Task `[incident_task]`)*.
+     *(e.g., ServiceNow Business Services -  xMatters Services Steps (v2 Flow Designer))*.
+   - **Trigger:** Select the trigger for Business Service  
+     *(ServiceNow Record Alerts Business Services `[cmdb_ci_service]`)*.
    - **Trigger URL:** Automatically filled once you select a trigger.
    - **Default Alert Priority:** Select a default priority *(e.g., Medium)*.  
      This value will be sent to Flow Designer unless overridden by the integration.
-   - **Default Signal Mode (Optional):** Enter a signal mode value.  
-     This may be overridden if an incident is created or updated.
-   - **Additional Recipients:** Enter one or more users or groups from xMatters or Everbridge who should also receive alerts.  
-     *(Separate recipients with commas).*
+   - **Default Signal Mode (Optional):** create, update or delete depending on the trigger profile being created. 
    - **ServiceNow API User:** Select the ServiceNow user account that Flow Designer will use to send updates back to ServiceNow.
 
 3. Click **Submit** to create the trigger profile.
