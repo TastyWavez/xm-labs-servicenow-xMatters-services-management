@@ -26,6 +26,11 @@ A ServiceNow Update Set and xMatters Workflow is provided:
 
 ### ServiceNow to xMatters Service Sync
 
+- **Creating Services:**
+- When a new service is added in ServiceNow a POST to xMatters is triggered and the service is created.
+-  **Updating Services:**
+-  When a service is updated in ServiceNow and a relevant change is detected e.g. 
+
 ---
 # Installation Guide
 
